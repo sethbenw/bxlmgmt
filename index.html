@@ -10,6 +10,11 @@
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/jquery.bxslider.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+<link href="/fontawesome/css/brands.css" rel="stylesheet">
+<link href="/fontawesome/css/solid.css" rel="stylesheet">
+<link href="/fontawesome/css/all.css" rel="stylesheet">
+
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
@@ -18,17 +23,15 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-3"> <a href=""><img class="logo" alt="" src="images/logo1.png"></a> </div>
+      <div class="col-sm-3"> <a href=""><img class="logo" alt="" src="images/logo2.png"></a> </div>
       <div class="col-sm-9">
         <nav class="navbar navbar-expand-lg navbar-light float-right">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item"> <a class="nav-link" href="#service">HOW IT WORKS</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#team">ABOUT US</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#">PRICING</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#">FAQ</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#">SUPPORT</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT US</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#cost">PRICING</a> </li>
             </ul>
             <a class="start-btn orange-gradint hvr-forward" href="#">Contact Us</a>
             </li>
@@ -38,14 +41,15 @@
     </div>
   </div>
 </header>
-<section class="slider">
+<section class="target">
   <div class="container">
     <div class="row">
+      <div class="col-sm-6"><i class="fas fa-file-invoice"></i>
+        <h2>BILLS MADE<span>EASY</span></h2>
+      </div>
       <div class="col-sm-6">
-        <h1>Get bills Payed</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor, erat ac facilisis gravida, dui nisl scelerisque elit, sit amet imperdiet.</p>
-        <a class="orange-gradint hvr-forward" href="https://calendly.com/eddie-52">Learn More Now</a> </div>
-    </div>
+        <p>Your satisfaction is our top priority! Our mission is to take the stress out of your life by providing a second<span> to none service that will take care of the entity of your property’s billing needs!</p>
+      </div>
   </div>
 </section>
 <section class="main">
@@ -65,30 +69,43 @@
   </div-->
   <div class="how-it-work-sec" id="service">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-sm-12">
           <h2>How It <span>Works</span></h2>
-          <p>Your satisfaction is our top priority! Our mission is to take the stress out of your life by providing a second<span> to none service that will take care of the entity of your property’s billing needs!</span></p>
+          <p>We utilize our team in order to ensure all bills are paid on time and are accounted for.</p>
           <img class="vert-move" src="images/hand-icon.png" alt=""> </div>
         <div class="work-box">
-          <div class="row">
-            <div class="col-sm-6 tool-text">
-              <h3>Collect Your <span>Bills</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor, erat ac facilisis gravida, dui nisl scelerisque elit, sit amet imperdiet.</p>
+          <div class="row  justify-content-center">
+            
+            <div class="col-sm-12">
+              <h2>It's Easy As </h2>
             </div>
-            <div class="col-sm-6 tool-img"> <img src="images/tool-01.png"> <img src="images/tool-02.png"> <img src="images/tool-03.png"> </div>
+
+            <div class="col-sm-4 tool-img text-center mb-5">
+              <img src="images/attention-03.png" class="mb-3">
+              <h4>1. Sign up with us today</h4>
+            </div>
+            <div class="col-sm-4 tool-img text-center mb-5"> 
+              <img src="images/tool-02.png" class="mb-3">
+              <h4>2. Upload your property information </h4>
+            </div>
+            <div class="col-sm-4 tool-img text-center mb-5"> 
+              <img src="images/tool-01.png" class="mb-3">
+              <h4>3. We'll take care of the rest! </h4>
+            </div>
+
           </div>
         </div>
         <div class="work-box">
           <div class="row">
-            <div class="col-sm-6 tool-img"> <img src="images/attention-01.png"> <img src="images/attention-02.png"> <img src="images/attention-03.png"> </div>
+            <div class="col-sm-6 tool-img"> <img src="images/attention-01.png"> <img src="images/attention-02.png"> <img src="images/tool-03.png"> </div>
             <div class="col-sm-6 tool-text">
-              <h3>Get A <span>Quote</span></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor, erat ac facilisis gravida, dui nisl scelerisque elit, sit amet imperdiet.</p>
+              <h3>Feel Safe & <span>Secure</span></h3>
+              <p>Your safety is our top priority, and with our secure system and constent line of communication we make it possible.</p>
             </div>
           </div>
         </div>
-        <div class="work-box">
+        <!-- div class="work-box">
           <div class="row">
             <div class="col-sm-6 tool-text">
               <h3>We Do The <span>Rest</span></h3>
@@ -96,20 +113,21 @@
             </div>
             <div class="col-sm-6 tool-img"> <img src="images/exponentially-01.png"> <img src="images/exponentially-02.png"> <img src="images/exponentially-03.png"> </div>
           </div>
-        </div>
+        </div -->
       </div>
     </div>
   </div>
   <!-- div class="client-review">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+          <h2>How It <span>Works</span></h2>
+        </div>
         <div class="col-sm-4">
           <div class="review-box"> <img src="images/client-01.png">
-            <h5>Jamey Lambert Furniture Factory 
-              Outlet Brockhaven MS</h5>
+            <h5>Basic Package</h5>
             <img src="images/reviews.png">
-            <p>Dovr Media has given a new dimension to my showroom. Customers have brought up how impressive the tour is 
-              in store. The sales numbers on my website have increased monthly, I’m very pleased with this product.</p>
+            <h5>For as little as <span>$150 per month</span>, we can manage all of your properties billing management.</h5>
             <img src="images/client-logo.png"> </div>
         </div>
         <div class="col-sm-4">
@@ -120,136 +138,53 @@
             <p>We doubled the time spent on site, tripled the pages visited, and generated six-figure returns thanks to DovrMedia.com's Virtual Showroom. We’ve also seen an increase in floor traffic and have gotten great results from the interactive online shopping experience</p>
             <img src="images/client-logo2.png"> </div>
         </div>
-        <div class="col-sm-4">
-          <div class="review-box"> <img src="images/client-03.png">
-            <h5>John Amon Crest Group’s Value City Furniture</h5>
-            <img src="images/reviews.png">
-            <p>Being one of the largest furniture companies in the tri-state area, it’s important to be innovative. The virtual store that Dovr Media did for us was just that. With high quality work, an attentive staff, and an awesome product, they’ve been great to work with. We continue to collaborate on new ideas that will make the buying process more streamlined for our customer on and off the web.</p>
-            <img src="images/client-logo3.png"> </div>
-        </div>
-        <a href="#">Get Started</a> </div>
+      </div>
     </div>
   </div -->
   <div class="target">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6"> <img src="images/target-icon.png">
-          <h2>TARGET YOUR <span>NEEDS</span></h2>
+        <div class="col-sm-6">
+          <div class="col-12">
+            <h2>TARGET YOUR <span>NEEDS</span></h2>
+          </div>
         </div>
         <div class="col-sm-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper mi vel orci hendrerit, quis molestie justo ornare. Cras non purus sed quam laoreet porta ac eu ligula.</p>
+          <p>We will go through the process of pinpointing your every need! No unnecessary costs! Our goal is to maximize your money and provide whatever services you’re property might need.  We assure you that you will not look back after hiring our services.</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- div class="platform">
-    <h2>Why use The <br>
-      <span>BxL®</span> Platform</h2>
+  <div class="platform" id="cost">
+    <h2>How much is the <br>
+      <span>BXL®</span> Platform?</h2>
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <div class="step-box"> <img src="images/step-01.png">
-            <h3>Easy setup</h3>
-            <p>Setting up your campaign is easy 
-              it’s quick, no setup fees, no downloads 
-              and no complicated settings.</p>
+            <h3>Basic Coverage</h3>
+            <h4>$150 /month</h4>
+            <p>Includes:</p>
+            <ul>
+              <li>Management of all properties billing necessities.</li>
+            </ul>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="step-box"> <img src="images/step-02.png">
-            <h3>Smart targetting</h3>
-            <p>Setting up your campaign is easy 
-              it’s quick, no setup fees, no downloads 
-              and no complicated settings.</p>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="step-box"> <img src="images/step-03.png">
-            <h3>Amazing results</h3>
-            <p>Setting up your campaign is easy 
-              it’s quick, no setup fees, no downloads 
-              and no complicated settings.</p>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="step-box"> <img src="images/step-04.png">
-            <h3>Track your progress</h3>
-            <p>Setting up your campaign is easy 
-              it’s quick, no setup fees, no downloads 
-              and no complicated settings.</p>
+            <h3>Full Converage</h3>
+            <h4>$250 /month</h4>
+            <p>Includes:</p>
+            <ul>
+              <li>Management of all properties billing necessities.</li>
+              <li>Manage all landscaping and property maintenance needs.</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </div -->
-  <div class="how-it-work-sec" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 pt-5">
-          <h2>Meet The <span>BxL Team</span></h2>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="team-sec">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-box">
-            <div class="team-profile"> <img src="images/team-merber05.jpg">
-              <div class="team-shadow"> <img src="images/team-shadow.png"> </div>
-              <div class="team-profile-content">
-                <h3>Noah S. Barnett</h3>
-                <hr>
-                <p>CEO</p>
-              </div>
-              <div class="overlay">
-                <div class="overlay-text">
-                  <h2>Noah S. Barnett</h2>
-                  <hr>
-                  <p><span>CEO</span></p>
-                  <p>A Westchester, NY, native currently attending Lehigh University. Studying real estate and international relations. As the CEO i am committed to providing the highest quality services to each and every one of our clients.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="team-box">
-            <div class="team-profile"> <img src="images/team-merber05.jpg">
-              <div class="team-shadow"> <img src="images/team-shadow.png"> </div>
-              <div class="team-profile-content">
-                <h3>Jordan A. Loran</h3>
-                <hr>
-                <p>Chief Sales Officer</p>
-              </div>
-              <div class="overlay">
-                <div class="overlay-text">
-                  <h2>Jordan A. Loran</h2>
-                  <hr>
-                  <p><span>Chief Sales Officer</span></p>
-                  <p>Hey there my name is Jordan Co-Founder of BxL management! I was fortunate to grow up in such a beautiful county like Westchester.  A little bit about me is that I look to help anyone I come in contact with in any shape or form. To be able to help people save as much money as possible and give them quality service while doing so is something that I think every home owner deserves! I partnered with my closest friend Noah because i believe there is nothing we can do together and we are striving to help you make your life easier. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-        <div class="pricing-form-blue">
-        <h2>Apply now and work with the BxL Management team</h2>
-        <hr>
-        <label>Name<span>*</span></label>
-        <input type="text" name="FirstName">
-        <label>Phone Number<span>*</span></label>
-        <input type="text" name="Business Email">
-        <label>Email Address<span>*</span></label>
-        <input type="text" name="Phone">
-        <input class="submit orange-gradint hvr-forward" type="button" value="Apply now ">
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <h3>*All credit card payments are due to a 3% additional charge and maintenance and landscaping fees are not included within the fees provided*</h3>
+  </div >
 </section>
 <footer>
 <!-- div class="footer">
