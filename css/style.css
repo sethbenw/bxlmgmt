@@ -108,15 +108,17 @@ header {padding:10px 0 0 0;}
 .how-it-work-sec p {font-size:25px; line-height:25px; font-weight:500; text-align:center; color:#585858; margin-bottom:50px;}
 .how-it-work-sec p span {display:block;}
 .how-it-work-sec img {text-align:center; margin:0 auto; display:block; margin-bottom:30px;}
-.how-it-work-sec .tool-text {padding-right:100px!important;}
+.how-it-work-sec #safety {padding-right:100px!important;}
 .how-it-work-sec .tool-text h3 {font-size:45px; line-height:normal; font-weight:700; text-align:left; color:#000; margin-bottom:15px;}
 .how-it-work-sec .tool-text h3 span {color:#ff7a01;}
+.how-it-work-sec .tool-text h4 {line-height:normal; font-weight:700; text-align:center; color:#000; margin-bottom:15px;}
+.how-it-work-sec .tool-text h4 span {color:#ff7a01;}
 .how-it-work-sec .tool-text p {font-size:16px; font-weight:500; text-align:left; color:#000; margin-bottom:20px;}
-.how-it-work-sec .tool-img img {display:inline-block; margin:0 15px; text-align:center;}
+.how-it-work-sec .tool-img img {display:inline-block; margin:15px 15px; text-align:center;}
 .work-box {margin:50px 0;}
 @media screen and (max-width : 1220px){
-    #safety{
-    visibility:hidden;
+    #safeSecure{
+    display: none !important;
     height: 0px;
     }
   }
@@ -159,7 +161,7 @@ img.vert-move {
 .platform h2 span {color:#ff6000;}
 .platform h3 {text-align: center;}
 
-.step-box {background:#FFF; box-shadow:1px 1px 10px 5px #eaeaea; padding:50px ; margin:30px 20px ; text-align:center; border-radius:20px; }
+.step-box {background:#FFF; box-shadow:1px 1px 10px 5px #eaeaea; padding:50px ; margin:30px 0px ; text-align:center; border-radius:20px; }
 .step-box:hover img { transform : rotate(360deg); transition:all 1s;}
 .step-box h3 {font-size:30px; font-weight:bold; line-height:40px; color:#000000; margin:20px 0;}
 .step-box h4 {margin-bottom:20px;}
