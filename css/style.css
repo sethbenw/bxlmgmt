@@ -109,12 +109,35 @@ header {padding:10px 0 0 0;}
 .how-it-work-sec p span {display:block;}
 .how-it-work-sec img {text-align:center; margin:0 auto; display:block; margin-bottom:30px;}
 .how-it-work-sec #safety {padding-right:100px!important;}
+.how-it-work-sec .tool-text h5 {line-height: 1.5; font-weight:700; text-align:center; color:#000; margin-bottom:15px;}
+.how-it-work-sec .tool-text h5 span {color:#ff7a01; text-align:left;}
 .how-it-work-sec .tool-text h3 {font-size:45px; line-height:normal; font-weight:700; text-align:left; color:#000; margin-bottom:15px;}
 .how-it-work-sec .tool-text h3 span {color:#ff7a01;}
 .how-it-work-sec .tool-text h4 {line-height:normal; font-weight:700; text-align:center; color:#000; margin-bottom:15px;}
-.how-it-work-sec .tool-text h4 span {color:#ff7a01;}
+.how-it-work-sec .tool-text h4 span {color:#ff7a01; text-align:left;}
 .how-it-work-sec .tool-text p {font-size:16px; font-weight:500; text-align:left; color:#000; margin-bottom:20px;}
 .how-it-work-sec .tool-img img {display:inline-block; margin:15px 15px; text-align:center;}
+.small-box {
+    background:#FFF;
+    box-shadow:1px 1px 10px 5px #eaeaea;
+    text-align:center;
+    border-radius:20px;
+
+
+}
+.small-box:hover {
+    animation: mover 0.5s infinite  alternate;
+}
+.big-box {
+    background:#FFF;
+    box-shadow:1px 1px 10px 5px #eaeaea;
+    text-align:center;
+    border-radius:20px;
+}
+.big-box:hover {
+    animation: mover 0.5s infinite  alternate;
+}
+
 .work-box {margin:50px 0;}
 @media screen and (max-width : 1220px){
     #safeSecure{
